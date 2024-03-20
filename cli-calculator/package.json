@@ -1,0 +1,24 @@
+{
+  "name": "@muhammad-bilal-khan/cli-calculator",
+  "version": "1.0.1",
+  "description": "This is a cli calculator created using typescript and inquirer",
+  "main": "index.js",
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": {
+    "cli-calculator": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^9.1.5"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.3"
+  }
+}
